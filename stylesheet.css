@@ -33,6 +33,8 @@
     flex-direction: row;
     padding: 7px 10px 5px 10px;
     font-size: 11px;
+    transform: translateX(10px);
+    gap: 2px;
 }
 
 .some__logos a {
@@ -77,6 +79,7 @@
     float: right;
     transform: translateY(-15px);
     font-size: 10px;
+    gap: 5px;
 }
 
 .shop__logos a {
