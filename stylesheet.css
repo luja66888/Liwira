@@ -1,0 +1,478 @@
+/* RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* NAVBAR FIRST */
+
+.navbar__info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #958A7E;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.info__text {
+    display: flex;
+    flex-direction: row;
+    padding: 7px 10px 5px 10px;
+    font-size: 8px;
+    color: #FAF7F0;
+}
+
+.telefon {
+    padding: 0 10px 0 0;
+}
+
+.some__logos {
+    display: flex;
+    flex-direction: row;
+    padding: 7px 10px 5px 10px;
+    font-size: 11px;
+}
+
+.some__logos a {
+    color: white;
+    text-decoration: none;
+}
+
+.instagram {
+    padding: 0 5px 0 0;
+}
+
+/* MEDIA QUERY NAVBAR FIRST */
+
+@media screen and (max-width: 1024px) {
+    .navbar__info {
+        display: none;
+    }
+}
+
+/* NAVBAR SECOND */
+
+.navbar__name {
+    background-color: #FAF7F0;
+    padding: 10px;
+}
+
+.name__liwira{
+    text-align: center;
+}
+
+.name__liwira h1 {
+    font-size: 28px;
+}
+
+.name__liwira p {
+    font-size: 7px;
+    line-height: 1.4;
+}
+
+.shop__logos {
+    display: flex;
+    float: right;
+    transform: translateY(-15px);
+    font-size: 10px;
+}
+
+.shop__logos a {
+    color: black;
+    text-decoration: none;
+}
+
+/* NAVBAR MENU */
+
+.menu__toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    float: left;
+    transform: translateY(-43px);
+}
+
+.menu__toggle .menu__bar {
+    background-color: #010101;
+    height: 2px;
+    width: 20px;
+    margin: 3px;
+}
+
+.nav__links a:hover {
+    color: #958A7E;
+    text-decoration: underline;
+}
+
+.nav__links a.active {
+    text-decoration: underline;
+}
+
+.nav__links a {
+    color: #FAF7F0;
+    text-decoration: none;
+}
+
+/* BACKGROUND SLIDE */
+
+.background__slide {
+    width: 100%;
+    height: 150px;
+    background-color: #958A7E;
+}
+
+/* INTRO SECTION LIWIRA */
+
+.intro__section--liwira {
+    padding: 20px 15px 20px 15px;
+    line-height: 1.4;
+}
+
+.intro__section--liwira img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* FACTS BOX GREEN */
+
+.fact__box {
+    width: 100%;
+    height: 100%;
+    background-color: #AFAF9B;
+    padding: 20px 15px 38px 15px;
+    text-align: center;
+}
+
+.fact__box div {
+    padding: 10px 0 10px 0;
+    color: #FAF7F0;
+    line-height: 1.6;
+}
+
+.fact__box i {
+    font-size: 28px;
+}
+
+.fact__box h3 {
+    font-size: 24px;
+}
+
+.fact__box p {
+    font-size: 16px;
+}
+
+/* PRODUCT EXAMPLES */
+
+.items img {
+    border-radius: 10px;
+}
+
+.product__examples {
+    padding: 20px 10px 20px 10px;
+}
+
+.product__examples h1 {
+    font-size: 26px;
+}
+
+.product__examples img {
+    height: 100%;
+    width: 300px;
+    transform: translateX(3px);
+    
+}
+
+.product__examples h4 {
+    font-size: 20px;
+}
+
+.product__examples p {
+    padding-bottom: 25px;
+}
+
+/* VENSTRE FOOTER */
+.footer {
+    background-color: #958A7E;
+    color: #FAF7F0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer__links ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 16px;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__links a {
+    color: #FAF7F0;
+    text-decoration: none;
+    gap: 15px;
+}
+
+.footer__links a:hover {
+    text-decoration: underline;
+}
+
+/* MIDT FOOTER */
+.footer__logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.footer__logo img {
+    max-height: 50px;
+    margin-bottom: 10px;
+}
+
+.footer__logo p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* HØJRE FOOTER */
+
+.footer__kontakt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+@media screen and (min-width: 710px) {
+ .footer__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+
+    .footer__links {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .footer__links ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__logo {
+        text-align: center;
+    }
+
+    .footer__logo p {
+        display: flex;
+        text-align: center;
+    }
+
+    .footer__kontakt {
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+}
+    
+@media screen and (max-width: 1024px) {
+    
+    .nav__links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 85px;
+        left: 0;
+        background-color: #958A7E;
+        opacity: 0.9;
+    }
+
+    .nav__links.active {
+        display: flex;
+    }
+
+    .nav__links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu__toggle {
+        display: flex;
+    }
+
+    .footer__container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar__menu {
+       border-top: 1px solid;
+       border-bottom: 1px solid;
+    }
+
+    .nav__links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style-type: none;
+        font-size: 16px;
+        gap: 75px;
+        padding: 12px 0 12px 0;
+        transform: translateX(30px);
+    }
+
+    .nav__links a {
+        color: #331D0D;
+    }
+
+
+    .name__liwira h1 {
+        font-size: 65px;
+    }
+
+    .name__liwira p {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+
+    .shop__logos {
+        font-size: 26px;
+        float: right;
+        transform: translateY(-60px);
+        padding-right: 50px;
+    }
+
+    .navbar__info {
+        height: 40px;
+    }
+
+
+    .info__text {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        padding-left: 70px;
+    }
+
+    .some__logos {
+        font-size: 26px;
+        gap: 10px;
+        padding-right: 70px;
+    }
+
+    .intro__section--liwira {
+        margin: 0 150px 0 150px;
+    }
+
+    .intro__text {
+        width: 700px;
+        margin: 20px 0 20px 0;
+    }
+
+    .intro__section--liwira h1 {
+        margin-top: 20px;
+    }
+
+    .intro__text p {
+        margin-bottom: 10px;
+    }
+
+    .intro__picture {
+        height: auto;
+        width: 450px;
+        float: right;
+        transform: translateY(-50px);
+    }
+
+
+    .fact__box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 150px;
+    }
+
+    .fact__box p {
+        width: 300px;
+    }
+
+
+    .product__examples {
+        margin: 0 150px 0 150px;
+    }
+
+    .product__examples h1 {
+        
+    }
+
+    .items__top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+
+    .beer__sundet img {
+        height: 600px;
+        width: auto;
+    }
+
+    .beer__sundet p {
+        width: 300px;
+    }
+
+    .personal__basket img {
+        height: 600px;
+        width: auto;
+    }
+
+    .personal__basket {
+        transform: translateX(-90px);
+    }
+
+    .personal__basket p {
+        width: 400px;
+    }
+
+    .items__bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+
+    .birthday__present img, .basket__grill img {
+        height: auto;
+        width: 400px;
+    }
+
+    .birthday__present p {
+        width: 300px;
+    }
+
+    .handmade__stuff img {
+        height: 320px;
+        width: auto;
+    }
+
+}
