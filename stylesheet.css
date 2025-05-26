@@ -115,7 +115,7 @@
 }
 
 .nav__links a {
-    color: #FAF7F0;
+    color: #958A7E;
     text-decoration: none;
 }
 
@@ -224,7 +224,7 @@
 }
 
 .footer__content {
-  padding: 0 18px;
+  padding: 10px 18px;
   display: none;
   overflow: hidden;
   background-color: #958A7E;
@@ -257,8 +257,7 @@
         position: absolute;
         top: 85px;
         left: 0;
-        background-color: #958A7E;
-        opacity: 0.9;
+        background-color: #FAF7F0;
     }
 
     .nav__links.active {
