@@ -325,7 +325,8 @@ cursor: pointer;
 .intro__section--liwira img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 5px;
+    padding-bottom: 10px;
 }
 
 /* FACTS BOX GREEN */
@@ -359,9 +360,8 @@ cursor: pointer;
 /* PRODUCT EXAMPLES */
 
 .items__all img {
-    border-radius: 10px;
+    border-radius: 5px;
     margin-bottom: 5px;
-    padding: 15px 15px;
 }
 
 .product__examples {
@@ -386,6 +386,7 @@ cursor: pointer;
 .product__examples p {
     padding-bottom: 25px;
 }
+
 
 /* FOOTER */
 
@@ -577,8 +578,8 @@ cursor: pointer;
     }
 
     .beer__sundet img {
-        height: 600px;
-        width: 400px;
+        height: 560px;
+        width: 350px;
     }
 
     .beer__sundet p {
@@ -586,8 +587,8 @@ cursor: pointer;
     }
 
     .personal__basket img {
-        height: 600px;
-        width: 890px;
+        height: 560px;
+        width: 810px;
     }
 
     .personal__basket p {
@@ -603,7 +604,7 @@ cursor: pointer;
 
     .birthday__present img, .basket__grill img {
         height: auto;
-        width: 400px;
+        width: 350px;
     }
 
     .birthday__present p {
