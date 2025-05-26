@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LIWIRA Slideshow</title>
+  <link rel="stylesheet" href="slideshow.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Playfair+Display:wght@500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="slideshow-container">
+
+    <div class="highlight_slide">
+      <img src="img/byg_gavekurv_slide.webp" style="width:100%">
+      <div class="h_text">EN GAVE MED OMTANKE </div>
+      <div class="text">Skab din egen gavekurv hos LIWIRA – fyldt med lækre sager fra lokale ildsjæle og kendte mærker. En gave med både personlighed og som kan passe til enhver anledning.</div>
+    </div>
+
+    <div class="highlight_slide">
+      <img src="img/iskaffe_slide.webp" style="width:100%">
+      <div class="h_text2">SÆSONENS FAVORIT ER TILBAGE!</div>
+      <div class="text2">Køl ned og gør sommeren lidt sødere med iskaffen fra Farm Mountain.</div>
+    </div>
+
+    <div class="highlight_slide">
+      <img src="img/farsdag _slide.webp" style="width:100%">
+      <div class="h_text">FARS DAG ER LIGE OM HJØRNET</div>
+      <div class="text">Sammensæt din egen gavekurv til ham eller se vores bud hvad den perfekte gave skal indholde her.</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+    <div class="dots-wrapper">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+  </div>
+
+  <script src="slideshow.js"></script>
+</body>
+</html>
