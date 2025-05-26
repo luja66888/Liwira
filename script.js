@@ -10,7 +10,6 @@ document.querySelector('.nav__links');
     });
     });
 
-
 /* FOOTER KNAPPER */
 let coll = document.getElementsByClassName("button__collapsible");
 let i;
