@@ -1,4 +1,4 @@
-    const btn = document.getElementById("scrollUpBtn"), visningTærskel = 300, farver = ["#333","#555","#777","#999"];
+ const btn = document.getElementById("scrollUpBtn"), visningTærskel = 200, farver = ["#333","#555","#777","#999"];
     const scrollObj = {
       visKnap() { btn.style.display = window.scrollY > visningTærskel ? "block" : "none"; },
       scrollTilTop() {
