@@ -214,6 +214,16 @@ cursor: pointer;
 }
 
 /* Caption text */
+.highlight_slide h2 {
+     font-size: 16px;
+     margin-top: 10px;
+}
+
+.highlight_slide p {
+    font-size: 12px;
+    margin-top: 12px;
+}
+
 .h_text {
   font-family: 'Playfair Display', serif;
   color: #331D0D;
@@ -234,7 +244,7 @@ cursor: pointer;
     left: 10%;
     width: 80%;
     text-align: left;
-  }
+}
 
 .text {
   font-family: 'Inter', sans-serif;
@@ -365,7 +375,8 @@ cursor: pointer;
 }
 
 .product__examples {
-    margin: 0 50px 0 50px;
+    padding: 20px 15px 50px 15px;
+    line-height: 1.4;
 }
 
 .product__examples h1 {
@@ -375,8 +386,7 @@ cursor: pointer;
 
 .product__examples img {
     height: 100%;
-    width: 400px;
-    transform: translateX(3px); 
+    width: 295px;
 }
 
 .product__examples h4 {
