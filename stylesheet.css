@@ -77,12 +77,12 @@ h1, h2, h3, h4 {
 }
 
 .name__liwira h1 {
-    font-size: 64px;
+    font-size: 50px;
     font-weight: 500;
 }
 
 .name__liwira p {
-    font-size: 16px;
+    font-size: 11px;
     line-height: 1.4;
 }
 
@@ -322,6 +322,16 @@ cursor: pointer;
   .text2 {
     font-size: 20px;
   }
+
+  .highlight_slide h2 {
+     font-size: 48px;
+     margin-top: 10px;
+}
+
+.highlight_slide p {
+    font-size: 20px;
+    margin-top: 12px;
+}
 }
 
 
@@ -634,5 +644,4 @@ cursor: pointer;
     gap: 8px;
     font-size: 16px;
     }
-
 }
