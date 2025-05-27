@@ -99,7 +99,7 @@ h1, h2, h3, h4 {
     text-decoration: none;
 }
 
-/* NAVBAR MENU */
+/* HAMBURGER MENU */
 
 .menu__toggle {
     display: none;
@@ -328,7 +328,7 @@ cursor: pointer;
      margin-top: 10px;
 }
 
-.highlight_slide p {
+  .highlight_slide p {
     font-size: 20px;
     margin-top: 12px;
 }
@@ -465,13 +465,14 @@ cursor: pointer;
         flex-direction: column;
         width: 100%;
         position: absolute;
-        top: 85px;
+        top: 70px;
         left: 0;
         background-color: #FAF7F0;
     }
 
     .nav__links.active {
         display: flex;
+        z-index: 99;
     }
 
     .nav__links li {
