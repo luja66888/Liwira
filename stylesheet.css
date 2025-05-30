@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     background-color: #FAF7F0;
 }
@@ -483,6 +487,21 @@ h1, h2, h3, h4 {
     .menu__toggle {
         display: flex;
     }
+
+    .product__examples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .items__all {
+    width: 95%;
+  }
+
+  .product__examples img {
+    width: 95%;
+    height: auto;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -546,9 +565,10 @@ h1, h2, h3, h4 {
     }
 
     .intro__text {
-        width: 700px;
+        width: 450px;
         margin: 20px 0 20px 0;
     }
+    
 
     .intro__section--liwira h1 {
         margin-top: 20px;
@@ -561,9 +581,10 @@ h1, h2, h3, h4 {
 
     .intro__picture {
         height: auto;
-        width: 450px;
+        width: 400px;
         float: right;
-        transform: translateY(-50px);
+        transform: translateY(-200px);
+        transform: translateX(10px);
     }
 
 
@@ -571,11 +592,12 @@ h1, h2, h3, h4 {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 150px;
+        gap: 110px;
     }
 
     .fact__box p {
-        width: 300px;
+        width: 230px;
+        text-align: left;
     }
 
 
@@ -588,7 +610,7 @@ h1, h2, h3, h4 {
     }
 
     .product__examples h1 {
-        padding: 30px 0 30px 0;
+        padding: 0 0 30px 0;
         font-size: 48px;
     }
 
@@ -600,21 +622,23 @@ h1, h2, h3, h4 {
     }
 
     .beer__sundet img {
-        height: 560px;
-        width: 350px;
+        height: 510px;
+        width: auto;
     }
 
     .beer__sundet p {
         width: 300px;
+        height: auto;
     }
 
     .personal__basket img {
-        height: 560px;
-        width: 810px;
+        height: 510px;
+        width: 650px;
     }
 
     .personal__basket p {
         width: 400px;
+        height: auto;
     }
 
     .items__bottom {
@@ -626,7 +650,7 @@ h1, h2, h3, h4 {
 
     .birthday__present img, .basket__grill img {
         height: auto;
-        width: 350px;
+        width: 288px;
     }
 
     .birthday__present p {
@@ -634,8 +658,9 @@ h1, h2, h3, h4 {
     }
 
     .handmade__stuff img {
-        height: 320px;
+        height: 260px;
         width: auto;
+        margin-right: 15px;
     }
 
     .footer__content {
